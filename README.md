@@ -1,6 +1,6 @@
 # flutter_app
 
-A new Flutter application.
+A new Flutter application to compare prices of different Hospitals in US and also get health related informations.
 
 ## Getting Started
 
