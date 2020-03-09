@@ -24,8 +24,8 @@ Future<List<hospital>> fetchAlbum(String text) async {
     [
       {"name":"atlanticare-regional-medical-center"},
       {"name":"new-york-presbyterian-hospital"},
-      {"name":"cooper-university-hospital"}
-
+      {"name":"cooper-university-hospital"},
+      {"name":"university-of-florida-health-shands"}
     ]
   ), headers: {"content-type": "application/json"});
 
