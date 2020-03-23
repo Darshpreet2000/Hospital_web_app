@@ -14,7 +14,7 @@ class Hospital_list extends StatefulWidget{
 
 Future<List<table>> fetchAlbum() async {
   List<table> list;
-  String url='http://hospitalwebscrap.us-east-2.elasticbeanstalk.com/api/';
+  String url='http://hospital-env.eba-rwfpssxq.us-east-2.elasticbeanstalk.com/api/';
   var response = await http.get(Uri.encodeFull(url));
   // If the server did return a 200 OK response, then parse the JSON.
   var data=json.decode(response.body);

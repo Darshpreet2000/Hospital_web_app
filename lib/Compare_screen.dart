@@ -18,7 +18,7 @@ final myController = TextEditingController();
 Future<List<hospital>> fetchAlbum(String text) async {
   List<hospital> list;
   print(text);
-  String url='http://hospitalwebscrap.us-east-2.elasticbeanstalk.com/api/search/'+text;
+  String url='http://hospital-env.eba-rwfpssxq.us-east-2.elasticbeanstalk.com/api/search/'+text;
   var response = await http
       .post(Uri.encodeFull(url), body: json.encode(
     [
