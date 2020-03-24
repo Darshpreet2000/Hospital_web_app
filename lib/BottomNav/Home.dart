@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../Compare_screen.dart';
+import '../CompareScreen.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import '../classes/table.dart';
+import '../Models/table.dart';
 import '../presentation/my_icons.dart';
 class Hospital_list extends StatefulWidget{
   @override

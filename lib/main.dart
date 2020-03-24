@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Bottom_Nav/Home.dart';
-import 'Bottom_Nav/News.dart';
-import 'Bottom_Nav/Saved.dart';
+import 'BottomNav/Home.dart';
+import 'BottomNav/News.dart';
+import 'BottomNav/Saved.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget{
